@@ -2,14 +2,15 @@
 
 [Site Web](https://calculquebec.github.io/cq-formation-sphinx-book/)
 
-## Installation et compilation
+## Installation locale et compilation
 
 ```Bash
 pip install sphinx==8.1.3 sphinx-intl sphinx-book-theme==1.1.3
+
 ./build.sh
 ```
 
-## Déploiement
+## Déploiement via GitHub
 
 Dans le dépôt GitHub -> Settings -> Pages :
 
