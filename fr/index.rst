@@ -1,5 +1,5 @@
-Gabarit de contenu didactique utilisant Sphinx
-==============================================
+Matériel d'atelier utilisant Sphinx
+===================================
 
 `English <../en/index.html>`_
 
