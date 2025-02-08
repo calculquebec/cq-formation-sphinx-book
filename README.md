@@ -17,3 +17,15 @@ Dans le dépôt GitHub -> Settings -> Pages :
 * Sélectionner la *Source* **Deploy from a branch**
 * Sélectionner la branche **gh-pages** et **/ (root)**
 * Cliquer sur le bouton *Save*
+
+## Style de programmation
+
+Indentez toujours avec 4 espaces.
+
+Pour configurer Vim:
+
+```Bash
+mkdir -p "$HOME/.vim/indent"
+cp /usr/share/vim/vim*/indent/rst.vim $HOME/.vim/indent/
+sed -e 's/= 3/= 4/' -i $HOME/.vim/indent/rst.vim
+```
