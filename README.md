@@ -7,6 +7,7 @@
 ```Bash
 pip install sphinx==8.1.3 sphinx-intl sphinx-book-theme==1.1.3
 
+cd doc
 ./build.sh
 ```
 
