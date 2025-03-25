@@ -19,12 +19,12 @@ Here are some examples of special boxes:
 
     - We
 
-        - can
-        - make
+      - can
+      - make
 
     - nested
 
-        - lists.
+      - lists.
 
     #. Quite
     #. useful!
@@ -36,6 +36,7 @@ Finally, the :code:`index.rst` files contain the necessary
 informations to build the table of contents in the left pane.
 
 .. toctree::
+    :caption: Chapters
     :maxdepth: 2
     :titlesonly:
     :hidden:
@@ -58,4 +59,3 @@ informations to build the table of contents in the left pane.
 
     Alliance Technical Documentation <https://docs.alliancecan.ca/wiki/Technical_documentation/en>
     Calcul Québec Training <https://www.calculquebec.ca/en/academic-research-services/training/>
-    CCDB Portal <https://ccdb.alliancecan.ca/>

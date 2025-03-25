@@ -19,12 +19,12 @@ Voici quelques exemples de blocs spéciaux :
 
     - On
 
-        - peut
-        - faire
+      - peut
+      - faire
 
     - des
 
-        - listes.
+      - listes.
 
     #. C'est
     #. pratique.
@@ -36,6 +36,7 @@ Les fichiers :code:`index.rst` contiennent les informations nécessaires
 à la construction de la table des matières dans le panneau de gauche.
 
 .. toctree::
+    :caption: Chapitres
     :maxdepth: 2
     :titlesonly:
     :hidden:
@@ -58,4 +59,3 @@ Les fichiers :code:`index.rst` contiennent les informations nécessaires
 
     Documentation technique de l’Alliance <https://docs.alliancecan.ca/wiki/Technical_documentation/fr>
     Formations de Calcul Québec <https://www.calculquebec.ca/services-aux-chercheurs/formation/>
-    Portail CCDB <https://ccdb.alliancecan.ca/>
